@@ -1,0 +1,35 @@
+<title>UltraCalc v0.1</title>
+<link rel="stylesheet" href="style.css"></link>
+<script src="script.js" defer></script>
+<script src="OmegaNum.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+<input id="input" style="background-color:black; color:#FF00FF; border-color:#FF00FF; outline:none;"></input> <button style="background-color:black; color:#FF00FF; border-color:#FF00FF; outline:none; font-face: 'Open Sans';" onclick="calculate(document.getElementById('input').value)">Calculate</button>
+<br>
+<span id="answer">Answer: </span>
+
+<ul id="myUL">
+  <li><span class="caret">Help</span>
+    <ul class="nested">
+    <li><span class="caret">Operation List</span>
+	<ul class="nested">
+	<li>Addition: + (e.x. "5+5" will return 10)</li>
+	<li>Subtraction: - (e.x. "3-2" will return 1)</li>
+	<li>Multiplication: *, x, or &times; (e.x. "4x3" will return 12)</li>
+	<li>Division: / or &divide; (e.x. "8/4" will return 2)</li>
+	</ul>
+    <li><span class="caret">How to use</span>
+	<ul class="nested">
+	<li>Enter something in the box, then press the enter key on your keyboard.</li>
+	<li>There is also a button to do this, which is really good for mobile users.</li>
+	<li>Something like "2+", "+7", or "2++7" will not work.</li>
+	<li>An example of what you should put is "2+7".</li>
+    </ul>
+  </li>
+  <li><span class="caret">Changelog</span>
+	<ul class="nested">
+	<li>v0.1: There is addition, subtraction, multiplication, and division. The limit is 10&uarr;<sup>1,000</sup>9e15, AKA 10{1,000}9e15 or {10, 9e15, 1000}.</li>
+	</ul>
+	</li>
+</ul>
+</li>
+</ul>
